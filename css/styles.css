@@ -387,6 +387,14 @@ body {
   outline-offset: var(--focus-offset);
 }
 
+.navbar__logo {
+  color: currentColor;
+  display: block;
+  height: 100%;
+  flex-shrink: 0;
+  width: 100%;
+}
+
 .navbar__links {
   align-items: center;
   display: flex;
@@ -1957,10 +1965,6 @@ body {
   .navbar__container {
     height: 3.5rem;
     padding: 0 1.25rem;
-  }
-
-  .navbar__logo {
-    font-size: 1.125rem;
   }
 
   .navbar__links {
